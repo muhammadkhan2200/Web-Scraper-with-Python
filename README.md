@@ -48,4 +48,4 @@ class Scraper:
                 print("\n" + url)
 
 news = "https://news.google.com/"
-Scraper(news).scrape()
+Scraper(news).scrape
