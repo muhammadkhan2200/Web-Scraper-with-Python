@@ -42,7 +42,7 @@ class Scraper:
         sp = BeautifulSoup(html,parser)
         for tag in sp.find_all("a"):
             url = tag.get("href")
-            if url is None:
+            If the URL is None:
                 continue
             if "articles" in url:
                 print("\n" + url)
